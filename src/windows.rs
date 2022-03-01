@@ -232,7 +232,7 @@ fn new_map(unique_id: &str, map_size: usize, create: bool) -> Result<MapData, Sh
         file_map: map_h,
         persistent_file,
         unique_id: unique_id.to_string(),
-        map_size: 0,
+        map_size,
         view: map_ptr,
     };
 
